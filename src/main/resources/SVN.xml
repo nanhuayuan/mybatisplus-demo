@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+-<Programs> // Programs node
+    -<Program> // Program node
+        Program properties…
+        -<Pages> // Pages node
+            -<Page>// Page1 node
+                Page properties…
+                -<Regions> // Regions node
+                    -<Region> // Region1 node
+                        Region properties…
+                        -<Items> // Items node
+                            -<Item> // Item1 node
+                                Item properties…
+                            -</Item>
+                            -<Item> // Item2 node
+                                Item properties…
+                            -</Item>
+                            ……
+                            -<Item/> // ItemN node
+                            -</Items>
+                        -</Region>
+                    -<Region/> // Region2 node
+                    ……
+                    -<Region/> // RegionN node
+                </Regions>
+            -</Page>
+            -<Page/> // Page2 node
+            ……
+            -<Page/> // PageN node
+        </Pages>
+    </Program>
+</Programs>
